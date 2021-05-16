@@ -20,6 +20,7 @@ public class ViewModelMain extends AndroidViewModel {
     private Context context;
     private ApiClient api;
 
+
     public ViewModelMain(@NonNull Application application) {
         super(application);
         context=application.getApplicationContext();
