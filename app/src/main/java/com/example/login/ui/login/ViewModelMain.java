@@ -33,7 +33,7 @@ public class ViewModelMain extends AndroidViewModel {
 
        if(res != null)
        {
-           //api.leer(context);
+           api.leer(context);
            Intent i= new Intent(context, RegistroActivity.class);
            i.putExtra("login", true);
            i.addFlags(Intent.FLAG_ACTIVITY_NEW_TASK);
